@@ -77,7 +77,7 @@ const UsersForm = () => {
   return (
     <>
       <Form onSubmit={handleUserFormSubmit}>
-        <h1>Registro</h1>
+        <h1>Usuarios</h1>
         <FormGroup >
           <CustomInput
             label="ID usuario:"
