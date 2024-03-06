@@ -8,6 +8,8 @@ import {
   FooterLogoImage,
   Container,
 } from "../../styles/Layout.styled";
+import logoF from './../../resources/img/logoFooter.jpeg'
+import logoH from './../../resources/img/logoHeader.png'
 
 const Layout = ({ children }) => {
   const handleReload = () => {
@@ -19,7 +21,7 @@ const Layout = ({ children }) => {
       <Header>
         <LogoImage
          onClick={handleReload}
-          src="https://www.bancoazteca.com.mx/content/dam/azteca/header/221229/logo-banco-azteca.jpeg"
+          src={logoH}
           alt="Header Logo"
         />
       </Header>
@@ -27,7 +29,7 @@ const Layout = ({ children }) => {
       <Footer>
         <FooterLogoImage
           onClick={handleReload}
-          src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/112018/untitled-1_54.png?hZgG.H_gQKjIwLnnQOVvVjmZozntLjPx&itok=w_kfJaH3"
+          src={logoF}
           alt="Footer Logo"
         />
       </Footer>

@@ -34,9 +34,8 @@ const Footer = styled.footer`
 `;
 
 const LogoImage = styled.img`
-  width: 180px;
-  
-   cursor: pointer;
+  width: 100px;
+  cursor: pointer;
 `;
 
 const FooterLogoImage = styled.img`
