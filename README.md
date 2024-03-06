@@ -19,7 +19,7 @@ El objetivo de este proyecto es crear un formulario de inicio de sesión que per
 ## Instalación
 1. Clona este repositorio en tu máquina local.
     ```bash
-    git clone <url_del_repositorio>
+    git clone https://github.com/Joaquinchable/login-userform-azteca.git
     ```
 
 2. Navega hasta el directorio del proyecto.
