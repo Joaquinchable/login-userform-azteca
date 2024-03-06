@@ -21,6 +21,7 @@ El objetivo de este proyecto es crear un formulario de inicio de sesión que per
     ```bash
     git clone https://github.com/Joaquinchable/login-userform-azteca.git
     ```
+  El proyecto se encuentra en la rama "master"
 
 2. Navega hasta el directorio del proyecto.
     ```bash
