@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Azteca Login Form Users
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
+Este proyecto es un formulario de inicio de sesión desarrollado con React y Redux, reduxjs/toolkit, utilizando herramientas como React Router Dom, Styled Components
 
-## Available Scripts
+## Resumen del Proyecto
+El objetivo de este proyecto es crear un formulario de inicio de sesión que permita a los usuarios autenticarse en una aplicación web y hacer peticion a una api simulado para obtener Usuarios registrados estos son sus IDs 1, 2 , 3 , 4  y se pude ingresar con el usuario azteca y la contraseña 12345.
 
-In the project directory, you can run:
+## Usuarios y IDs
+- Usuario 1: ID - 1
+- Usuario 2: ID - 2
+- Usuario 3: ID - 3
+- Usuario 4: ID - 4
 
-### `npm start`
+## Requerimientos
+- Node.js
+- npm o yarn
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalación
+1. Clona este repositorio en tu máquina local.
+    ```bash
+    git clone <url_del_repositorio>
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navega hasta el directorio del proyecto.
+    ```bash
+    cd azteca-login-form
+    ```
 
-### `npm test`
+3. Instala las dependencias del proyecto.
+    ```bash
+    npm install
+    # o
+    yarn install
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Uso
+Para iniciar el proyecto en un servidor local, puedes ejecutar el siguiente comando:
+```bash
+npm start
+# o
+yarn start
